@@ -1,0 +1,154 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ffe6f2; /* soft pink */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: #ff4da6; /* bright pink */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 5px solid #ff99cc;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* NAVBAR */
+nav {
+    background: #ff80bf;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff1a75;
+}
+
+/* SECTION */
+section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+section h2 {
+    color: #ff3385;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* ABOUT */
+.profile-img {
+    width: 180px;
+    margin-top: 15px;
+    border-radius: 50%;
+    display: block;
+}
+
+/* PROJECT CARD */
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff99cc;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* FORM */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #ff99cc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 2px solid #ffb3d9;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    background: #ff4da6;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e60073;
+}
+
+/* FOOTER */
+footer {
+    background: #ff4da6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    border-top: 5px solid #ff99cc;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    section {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

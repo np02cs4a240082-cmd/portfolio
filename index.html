@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajita Banjara | Portfolio</title>
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Prajita Banjara</h1>
+        <p>Student | Football Lover | Web Developer</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm <strong>Prajita Banjara</strong>. I love playing football and enjoy learning new
+            things about web development. I am passionate, curious, and always excited to create new projects!
+        </p>
+
+        <img src="images/WhatsApp Image 2025-11-14 at 09.25.23_ecf44d5e.jpg" alt="Prajita Photo" class="profile-img">
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <img src="images/project1.png" alt="Portfolio Project">
+            <h3>Portfolio Website</h3>
+            <p>
+                This is my portfolio project, created using HTML and CSS. It includes my personal details,
+                my project work, and a contact form.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Your Name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Your Email" required>
+
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Prajita Banjara | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Auto year update
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
